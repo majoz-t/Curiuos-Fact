@@ -1,3 +1,31 @@
-*{
-    background-color: aqua;
+.main{
+    background-image: url("fondo-curious.jpg");
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: row-reverse;
 }
+.text-button{
+    height: 65vh;
+    width: 80vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.seccfavorite{
+    position: absolute;
+    bottom: 60px;
+    right: 40px;
+}
+
+/*.textfact{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+.buttons{
+    display: flex;
+    justify-content: end;
+}*/
