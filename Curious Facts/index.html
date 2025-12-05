@@ -1,24 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
     <title>Curious Facts</title>
-</head>
-<body>
-    <section>
-        <h2>Do you know that...?</h2>
+  </head>
+  <body>
+    <main class="main">
+    <div class="text-button">
+      <section class="text-fact">
+        <h2 class="doyou">Do you know that...?</h2>
         <p class="view"></p>
-    </section>
-    <section>
+      </section>
+      <section class="buttons">
         <button id="clickfact" type="button">Get your Curious Fact</button>
-        <button id="buttonloveit" type="button">Favoritos</button>
-    </section>
-    <section>
-        <h2>Favoritos</h2>
+        <button id="buttonloveit" type="button">Add your favorite!</button>
+      </section>
+    </div>
+    <div class="allFavorites">
+      <section class="seccfavorite">
+        <h2 class="titlefav">My Favorites</h2>
         <ul id="favorite-List"></ul>
-    </section>
+      </section>
+    </div>
+    </main>
     <script src="./curious-facts.js" type="module" defer></script>
-</body>
+  </body>
 </html>
